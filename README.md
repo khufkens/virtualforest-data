@@ -2,7 +2,7 @@
 
 A single day of data as collected in autumn by the virtualforest.io project. This data is freely available for experimentation, creative creations. For full access to the data for scientific and commercial purposes please contact me by email.
 
-The data included is full resolution, unaltered data as per acquisition. The mask.png file allows you to exclude the bottom part of the images which includes the base of the camera mount using the code bellow.
+The data included is full resolution, unaltered data as per acquisition. The mask.png file allows you to exclude the bottom part of the images which includes the base of the camera mount using the [imagemagick](https://www.imagemagick.org) code bellow.
 
 ```bash
 convert input.jpg mask.png -compose Multiply -composite output.jpg
